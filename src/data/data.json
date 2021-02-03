@@ -1,0 +1,165 @@
+{
+    "Javascript": [
+        { 
+            "q": "Object",
+            "a": [
+                "An Object is a unique entity which contains property and methods.",
+                "For example “car” is a real life Object, which have some characteristics like color, type, model, horsepower and performs certain action like drive.",
+                "The characteristics of an Object are called as Property, in Object Oriented Programming and the actions are called methods.",
+                "An Object is an instance of a class.",
+                "In Javascript - everything is an object (String, Function, Array etc..)"
+            ],
+            "img": "objects"
+        },
+        { 
+            "q": "Classes",
+            "a": [
+                "Classes are blueprint of an Object.",
+                "Simply, Class is a template and objects are instances of that template"
+            ],
+            "img": "classes"
+        },
+        { 
+            "q": "Encapsulation",
+            "a": [
+                "Hiding the data from the implementation"
+            ]
+        },
+        { 
+            "q": "Inheritance",
+            "a": [
+                "Copying or cloning properties and methods of it's parent object"
+            ]
+        },
+        { 
+            "q": "Abstraction",
+            "a": [
+                "Extracting a simple model from a complex data item",
+                "and this model gives the context of a particular entity"
+            ]
+        },
+        { 
+            "q": "Difference between “ == “ and “ === “ operators.",
+            "a": [
+                "Both are comparison operators.",
+                "“==” is used to compare values",
+                "whereas, “ === “ is used to compare both value and types."
+            ]
+        },
+        { 
+            "q": "Hoisting",
+            "a": [
+                "Hoisting is a default behaviour of javascript where all the variable and function declarations are moved on top."
+            ]
+        },
+        { 
+            "q": "Call Apply Bind",
+            "a": [
+                "All are used to set/modify the context of a function",
+                "“bind” will create and returns a new function",
+                "“apply” will invoke a function with array of arguments",
+                "“call” will invoke a function with individual arguments"
+            ]
+        },
+        { 
+            "q": "Currying",
+            "a": [
+                "It is a technique to transform a function of arguments n, to n functions of one or less arguments."
+            ]
+        },
+        { 
+            "q": "Closure",
+            "a": [
+                "It is a mechanism of a function that can remember its scope variables even though it's outer function is returned"
+            ]
+        },
+        { 
+            "q": "Prototypes",
+            "a": [
+                "A prototype is a blueprint of an object. Prototype allows us to use properties and methods on an object even if the properties and methods do not exist on the current object."
+            ]
+        },
+        { 
+            "q": "Callbacks",
+            "a": "Functions that are used as an argument to another function are called callback functions."
+        },
+        { 
+            "q": "Memoization",
+            "a": "Memoization is a form of caching where the return value of a function is cached based on its parameters. If the parameter of that function is not changed, the cached version of the function is returned."
+        },
+        { 
+            "q": "Recursion ",
+            "a": "Recursion is a technique to iterate over an operation by having a function call itself repeatedly until it arrives at a result."
+        },
+        { 
+            "q": "Arrow functions",
+            "a": "Arrow functions were introduced in the ES6 version of javascript. They provide us with a new and shorter syntax for declaring functions."
+        },
+        { 
+            "q": "rest parameter and spread operator",
+            "a": "Arrow functions were introduced in the ES6 version of javascript. They provide us with a new and shorter syntax for declaring functions."
+        },
+        { 
+            "q": "Promises",
+            "a": "Promises are used to handle asynchronous operations in javascript. Before promises, callbacks were used to handle asynchronous operations. But due to limited functionality of callback, using multiple callbacks to handle asynchronous code can lead to unmanageable code."
+        },
+        { 
+            "q": "Generator",
+            "a": "Introduced in ES6 version, generator functions are a special class of functions.They can be stopped midway and then continue from where it had stopped."
+        },
+        { 
+            "q": "Destructuring",
+            "a": "Object destructuring is a new way to extract elements from an object or an array."
+        }
+    ],
+    "Angular": [
+        {
+            "q": "Why Angular?",
+            "a": [
+                "Single page application",
+                "Provides complete structure",
+                "lot of in-built feature",
+                "have different types of compilers",
+                "support mobile platforms and server-side renderings",
+                "improved security features"
+            ]
+        },
+        {
+            "q": "Security in Angular",
+            "a": [
+                "Content Security Policy to prevent Cross site scripting",
+                "This can be configured at web server level",
+                "AOT compiler - compiles at development level and notifies error before head before page loads and serves index page from compiler",
+                "unsafe bindings, JIT compiler"
+            ]
+        },
+        {
+            "q": "Improving performance",
+            "a": [
+                "AOT",
+                "Using latest versions",
+                "Sprite images",
+                "minimal bundles",
+                "Lazy loading"
+            ]
+        },
+        {
+            "q": "New in angular?",
+            "a": [
+                "Strict mode is introduced, ng new --strict",
+                "AOT is improved",
+                "Typescript is upgraded"
+            ]
+        },
+        {
+            "q": "JIT VS AOT",
+            "a": [
+                "JIT (Just-in-Time) - application compiles inside the browser during runtime",
+                "AOT - (Ahead of time) - application compiles during the build time"
+            ]
+        }
+    ],
+    "React": [
+        
+    ]
+}
